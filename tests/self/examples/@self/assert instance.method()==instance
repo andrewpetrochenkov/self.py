@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+from self import self
+
+
+class CLS(object):
+
+    @self
+    def method(self):
+        self.key = "value"
+
+
+def main():
+    instance = CLS()
+    assert instance.method() == instance
+
+if __name__ == "__main__":
+    main()

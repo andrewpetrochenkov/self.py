@@ -1,16 +1,20 @@
-[![](https://img.shields.io/pypi/pyversions/self.svg?longCache=True)](https://pypi.org/pypi/self/)
-[![](https://img.shields.io/pypi/v/self.svg?maxAge=3600)](https://pypi.org/pypi/self/)
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/self.svg?longCache=True)](https://pypi.org/project/self/)
+[![](https://img.shields.io/pypi/v/self.svg?maxAge=3600)](https://pypi.org/project/self/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/self.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/self.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install self
 ```
 
 #### Functions
-function|description
+function|`__doc__`
 -|-
-`self.self(method, self, *args, **kwargs)`|`@self` method decorator to return self object
+`self.self(method, *args, **kwargs)` |`@self` method decorator to return self object
 
 #### Examples
 ```python
@@ -28,4 +32,6 @@ function|description
 >>> CLS().method().method2() # jQuery like chain
 ```
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>

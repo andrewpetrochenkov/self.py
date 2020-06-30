@@ -1,21 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/self.svg?longCache=True)](https://pypi.org/project/self/)
-[![](https://img.shields.io/pypi/v/self.svg?maxAge=3600)](https://pypi.org/project/self/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/self.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/self.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/self.svg?maxAge=3600)](https://pypi.org/project/self/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/self.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/self.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install self
 ```
-
-#### Functions
-function|`__doc__`
--|-
-`self.self(method, *args, **kwargs)` |`@self` method decorator to return self object
 
 #### Examples
 ```python
@@ -34,5 +29,5 @@ function|`__doc__`
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>

@@ -1,11 +1,10 @@
-#!/usr/bin/env python
+__all__ = ['self']
+
+
 import inspect
 from decorator import decorator
-import public
 
 
-@decorator
-@public.add
 def self(method, self, *args, **kwargs):
     """`@self` method decorator to return self object"""
     if not inspect.isroutine(method):
